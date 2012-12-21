@@ -1,4 +1,4 @@
-Seleniun BOM (Bill of Materials)
+Selenium BOM (Bill of Materials)
 ================================
 
 This project intends to improve Selenium dependency management by specifyng POM managing dependency versions for all Selenium artifacts.
