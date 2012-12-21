@@ -16,8 +16,25 @@
     <name>Selenium Dependency Management</name>
     <description>This POM serves as BOM (Bill of Materials) for managing core Selenium dependency versions</description>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Lukas Fryc</name>
+            <email>lfryc@redhat.com</email>
+        </developer>
+    </developers>
+
     <properties>
         <version.selenium>${project.version}</version.selenium>
+
+        <jboss.releases.repo.url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</jboss.releases.repo.url>
+        <jboss.snapshots.repo.url>https://repository.jboss.org/nexus/content/repositories/snapshots/</jboss.snapshots.repo.url>
     </properties>
 
     <dependencyManagement>
@@ -84,4 +101,38 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <scm>
+        <connection>scm:git:git://github.com/lfryc/selenium-bom.git</connection>
+        <developerConnection>scm:git:ssh://github.com/lfryc/selenium-bom.git</developerConnection>
+        <url>https://github.com/lfryc/selenium-bom</url>
+    </scm>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.1</version>
+                    <configuration>
+                        <pushChanges>false</pushChanges>
+                        <localCheckout>true</localCheckout>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>jboss-releases-repository</id>
+            <name>JBoss Releases Repository</name>
+            <url>${jboss.releases.repo.url}</url>
+        </repository>
+        <snapshotRepository>
+            <id>jboss-snapshots-repository</id>
+            <name>JBoss Snapshots Repository</name>
+            <url>${jboss.snapshots.repo.url}</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
