@@ -28,6 +28,10 @@
             <name>Lukas Fryc</name>
             <email>lfryc@redhat.com</email>
         </developer>
+        <developer>
+            <name>Karel Piwko</name>
+            <email>kpiwko@redhat.com</email>
+        </developer>
     </developers>
 
     <properties>
