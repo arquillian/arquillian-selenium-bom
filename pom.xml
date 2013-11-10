@@ -10,7 +10,7 @@
 
     <groupId>org.jboss.arquillian.selenium</groupId>
     <artifactId>selenium-bom</artifactId>
-    <version>2.35.0</version>
+    <version>2.36.0</version>
     <packaging>pom</packaging>
 
     <name>Selenium Dependency Management</name>
