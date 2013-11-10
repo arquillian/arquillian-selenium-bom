@@ -2,12 +2,6 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.jboss</groupId>
-        <artifactId>jboss-parent</artifactId>
-        <version>9</version>
-    </parent>
-
     <groupId>org.jboss.arquillian.selenium</groupId>
     <artifactId>selenium-bom</artifactId>
     <version>2.36.0</version>
@@ -107,9 +101,9 @@
     </dependencyManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/lfryc/selenium-bom.git</connection>
-        <developerConnection>scm:git:ssh://github.com/lfryc/selenium-bom.git</developerConnection>
-        <url>https://github.com/lfryc/selenium-bom</url>
+        <connection>scm:git:git://github.com/arquillian/arquillian-selenium-bom.git</connection>
+        <developerConnection>scm:git:ssh://github.com/arquillian/arquillian-selenium-bom.git</developerConnection>
+        <url>https://github.com/arquillian/arquillian-selenium-bom</url>
     </scm>
 
     <build>
