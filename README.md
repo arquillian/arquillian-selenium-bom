@@ -1,7 +1,7 @@
 Selenium BOM (Bill of Materials)
 ================================
 
-This project intends to improve Selenium dependency management by specifyng POM managing dependency versions for all Selenium artifacts.
+This project intends to improve Selenium dependency management by specifying POM managing dependency versions for all Selenium artifacts.
 
 Usage
 =====
@@ -9,7 +9,7 @@ Usage
 Add following snippet to your project's POM:
 
     <properties>
-        <version.selenium>2.38.0</version.selenium>
+        <version.selenium>2.39.0</version.selenium>
     </properties>
 
     <dependencyManagement>
@@ -33,9 +33,17 @@ For more information about dependency management, see [Introduction to Dependenc
 Installing
 ==========
 
-In order to install new version of Selenium dependency, change `${version.selenium}` version to the one you would like to install and run
+In order to install new version of Selenium BOM locally, change `${version.selenium}` version to the one you would like to install and run:
 
     mvn install
+
+Testing
+=======
+
+When you install updated Selenium BOM, you should verify all the versions specified in BOM are available in Maven Central Repository. You can do that
+by executing following command:
+
+    mvn dependency:tree -f pom-tests.xml
 
 Deploying
 =========
