@@ -9,7 +9,7 @@ Usage
 Add following snippet to your project's POM:
 
     <properties>
-        <version.selenium>2.42.2</version.selenium>
+        <version.selenium>2.43.0</version.selenium>
     </properties>
 
     <dependencyManagement>
