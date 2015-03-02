@@ -48,7 +48,7 @@
             <artifactId>selenium-server</artifactId>
         </dependency>
 
-        <!-- Selenium dependecies -->
+        <!-- Selenium dependencies -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
@@ -81,14 +81,18 @@
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-safari-driver</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
         </dependency>
     </dependencies>
 
     <scm>
-        <connection>scm:git:git://github.com/lfryc/selenium-bom.git</connection>
-        <developerConnection>scm:git:ssh://github.com/lfryc/selenium-bom.git</developerConnection>
-        <url>https://github.com/lfryc/selenium-bom</url>
+        <connection>scm:git:git://github.com/arquillian/arquillian-selenium-bom.git</connection>
+        <developerConnection>scm:git:ssh://github.com/arquillian/arquillian-selenium-bom.git</developerConnection>
+        <url>https://github.com/arquillian/arquillian-selenium-bom</url>
     </scm>
 
     <build>
