@@ -61,6 +61,11 @@
                 <artifactId>selenium-support</artifactId>
                 <version>${version.selenium}</version>
             </dependency>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-leg-rc</artifactId>
+                <version>${version.selenium}</version>
+            </dependency>
 
             <!-- Drivers -->
             <dependency>
@@ -81,6 +86,11 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-ie-driver</artifactId>
+                <version>${version.selenium}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-edge-driver</artifactId>
                 <version>${version.selenium}</version>
             </dependency>
             <dependency>
