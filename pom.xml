@@ -4,7 +4,7 @@
 
   <groupId>org.jboss.arquillian.selenium</groupId>
   <artifactId>selenium-bom</artifactId>
-  <version>3.3.1</version>
+  <version>3.4.0</version>
   <packaging>pom</packaging>
 
   <name>Arquillian Selenium Dependency Management</name>
@@ -70,6 +70,11 @@
       <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-leg-rc</artifactId>
+        <version>${version.selenium}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>lift</artifactId>
         <version>${version.selenium}</version>
       </dependency>
 
