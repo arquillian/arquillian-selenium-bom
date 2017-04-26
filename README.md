@@ -3,7 +3,7 @@ Selenium BOM (Bill of Materials)
 
 This project intends to improve Selenium dependency management by specifying POM managing dependency versions for all Selenium artifacts.
 
-**WARNING:** HtmlUnitDriver was removed from the Selenium main distribution package in the version 2.53.0. For this reason, the HtmlUnitDriver dependency is neither included in the Selenium BOM since the version 2.53.0.<br/> 
+**WARNING:** HtmlUnitDriver was removed from the Selenium main distribution package in the version 2.53.0. For this reason, the HtmlUnitDriver dependency is neither included in the Selenium BOM since the version 2.53.0.<br/>
 For more information see: <br/>
 https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG <br/>
 https://github.com/SeleniumHQ/htmlunit-driver
@@ -14,7 +14,7 @@ Usage
 Add following snippet to your project's POM:
 
     <properties>
-        <version.selenium>3.3.1</version.selenium>
+        <version.selenium>3.4.0</version.selenium>
     </properties>
 
     <dependencyManagement>
