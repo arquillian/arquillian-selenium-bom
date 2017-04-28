@@ -35,9 +35,8 @@
 
   <properties>
     <version.selenium>${project.version}</version.selenium>
-
-    <jboss.releases.repo.url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/
-    </jboss.releases.repo.url>
+    <bintray.releases.repo.url>https://api.bintray.com/maven/arquillian/Arquillian/arquillian-selenium-bom/
+    </bintray.releases.repo.url>
     <jboss.snapshots.repo.url>https://repository.jboss.org/nexus/content/repositories/snapshots/
     </jboss.snapshots.repo.url>
   </properties>
@@ -170,9 +169,9 @@
 
   <distributionManagement>
     <repository>
-      <id>jboss-releases-repository</id>
-      <name>JBoss Releases Repository</name>
-      <url>${jboss.releases.repo.url}</url>
+      <id>bintray</id>
+      <name>Bintray Releases Repository</name>
+      <url>${bintray.releases.repo.url}</url>
     </repository>
     <snapshotRepository>
       <id>jboss-snapshots-repository</id>
