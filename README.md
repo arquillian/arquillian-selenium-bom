@@ -14,7 +14,7 @@ Usage
 Add following snippet to your project's POM:
 
     <properties>
-        <version.selenium>3.8.1</version.selenium>
+        <version.selenium>3.9.0</version.selenium>
     </properties>
 
     <dependencyManagement>
