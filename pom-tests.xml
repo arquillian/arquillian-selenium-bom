@@ -4,7 +4,7 @@
 
   <groupId>org.jboss.arquillian.selenium</groupId>
   <artifactId>selenium-bom-tests</artifactId>
-  <version>3.13.0</version>
+  <version>3.14.0</version>
   <packaging>pom</packaging>
 
   <name>Selenium BOM Test</name>
