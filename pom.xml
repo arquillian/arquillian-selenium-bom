@@ -34,7 +34,7 @@
   </developers>
 
   <properties>
-    <version.selenium>${project.version}</version.selenium>
+    <version.selenium>3.141.59</version.selenium>
     <bintray.releases.repo.url>https://api.bintray.com/maven/arquillian/Arquillian/arquillian-selenium-bom/
     </bintray.releases.repo.url>
     <jboss.snapshots.repo.url>https://repository.jboss.org/nexus/content/repositories/snapshots/
