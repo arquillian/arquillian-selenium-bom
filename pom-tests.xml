@@ -4,7 +4,7 @@
 
   <groupId>org.jboss.arquillian.selenium</groupId>
   <artifactId>selenium-bom-tests</artifactId>
-  <version>3.13.0</version>
+  <version>3.141.59</version>
   <packaging>pom</packaging>
 
   <name>Selenium BOM Test</name>
@@ -31,7 +31,6 @@
       <email>mjobanek@redhat.com</email>
     </developer>
   </developers>
-
 
   <dependencyManagement>
     <dependencies>
